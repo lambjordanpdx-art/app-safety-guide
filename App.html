@@ -1,0 +1,1802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;App Safety Guide for Parents&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>-webkit-overflow-scrolling: touch;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #fafaf9;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 48px 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #525252;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Breaking News Alert */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.breaking-alert {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px solid #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.breaking-alert::before {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>right: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: pulse 2s ease-in-out infinite;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes pulse {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>0%, 100% { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">      </span>50% { opacity: 0.5; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.breaking-alert h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #991b1b;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.breaking-alert-content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 12px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 4px solid #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: all 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translateX(4px);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 8px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item-header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #111827;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item-date {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.alert-item-desc {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #525252;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Search Bar */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-container {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-icon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>left: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>top: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translateY(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #9ca3af;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>pointer-events: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-input {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 14px 16px 14px 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e5e5e5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>outline: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: border-color 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.search-input:focus {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Show All Button */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.show-all-btn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 2px dashed #d4d4d4;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: all 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.show-all-btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #a1a1aa;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #fafafa;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* App Cards */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e5e5e5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: all 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 4px 12px rgba(0,0,0,0.08);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #d4d4d4;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-card-content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-icon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 48px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>object-fit: contain;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-info {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-name {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 22px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-badge {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 4px 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 9999px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-green {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f0fdf4;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #15803d;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #bbf7d0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-yellow {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #fffbeb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #b45309;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #fde68a;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-red {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #fef2f2;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #b91c1c;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-color: #fecaca;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-category {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #737373;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-teaser {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #404040;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.chevron {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #9ca3af;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* App count */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.app-count {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding-top: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-top: 1px solid #e5e5e5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Detail View */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-view {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>animation: slideIn 0.3s ease-out;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@keyframes slideIn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>from {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>transform: translateY(10px);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>to {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>transform: translateY(0);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.back-btn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 8px 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-left: -12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transition: all 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.back-btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f5f5f5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #374151;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-header-content {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-icon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 64px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 64px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>object-fit: contain;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 36px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #111827;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.detail-meta {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-squares {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-right: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.rating-square {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>height: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.content-section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e5e5e5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.section-text {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #525252;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-box {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #f9fafb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e5e7eb;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-box:last-child {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-date {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 13px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6b7280;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-headline {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #111827;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-summary {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #525252;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.news-link {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.columns-grid {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.column-box {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.column-green {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #d1fae5;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 3px solid #10b981;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.column-red {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #fecaca;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 3px solid #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.column-blue {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e0e7ff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-left: 3px solid #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.list-item {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.list-item:last-child {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.list-item-icon {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 18px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.list-item-text {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #525252;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex: 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.setup-section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #faf5ff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #e9d5ff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.setup-step {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.setup-step:last-child {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.step-number {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #9333ea;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.our-take-section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #bfdbfe;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.our-take-title {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #1e40af;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.our-take-text {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #1e3a8a;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.hidden {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 640px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 24px 16px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>.detail-title {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 28px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>.columns-grid {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>grid-template-columns: 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="app"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const apps = [</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'characterai',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Character.AI',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Chatbot',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Character.ai_2023_vector_logo.svg/240px-Character.ai_2023_vector_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '18+ ONLY',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'AI chatbot platform where users can create and chat with AI characters. Platform has been linked to multiple teen suicides and is facing wrongful death lawsuits.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: '🚨 BREAKING: Minors banned starting Nov 25 after teen suicides—do NOT allow for anyone under 18',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'This is an emergency situation. Character.AI has been directly linked to multiple teen suicides, with families filing wrongful death lawsuits. The platform announced in October 2025 that minors will be banned from open-ended chats starting November 25, 2025. If your teen has used this app, you need to have an immediate conversation about what they discussed with the AI. Watch for signs of emotional attachment, isolation, or depression. This is not a "monitor with caution" situation—this is a "delete immediately" situation.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>recentNews: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>date: 'October 2025',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headline: 'Character.AI to Ban Minors After Teen Suicides',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>summary: 'Following multiple lawsuits from families whose teenagers died by suicide after using the platform, Character.AI announced minors will be prohibited from open-ended chats starting November 25, 2025. The platform will restrict users under 18 to heavily moderated educational bots only.',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>link: 'https://www.cnn.com/2024/10/22/tech/character-ai-teen-safety-changes/index.html'</p>
+<p class="p1"><span class="Apple-converted-space">          </span>},</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>date: 'October 2024',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headline: 'Mother Sues Character.AI After 14-Year-Old Son\'s Suicide',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>summary: 'Megan Garcia filed a lawsuit against Character.AI after her 14-year-old son Sewell Setzer III died by suicide. The teen had developed an intense emotional attachment to an AI character named "Dany" and spent months in isolation chatting with the bot.',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>link: 'https://www.cnn.com/2024/10/23/tech/character-ai-lawsuit-teen-death/index.html'</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Will ban minors starting November 25, 2025',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some educational potential if heavily supervised'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Linked to multiple teen suicides',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Creates unhealthy emotional dependencies',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'AI characters can encourage self-harm',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teens become isolated from real relationships',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No adequate safety measures currently',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Romanticizes depression and suicide',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Facing multiple wrongful death lawsuits'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Do NOT allow for anyone under 18—period',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check if app is installed—demand deletion immediately',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Talk immediately about what they discussed with AI',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for signs of emotional attachment or isolation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for depression or suicidal ideation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Seek professional help if concerned',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'This is not safe even with supervision'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'DO NOT SET UP—DELETE IMMEDIATELY',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check all devices for the app',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Look for web browser access to character.ai',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Block website at router level',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Have immediate conversation about AI relationships',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider professional counseling if heavily used'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'hammerai',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Hammer AI',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Character Chat',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://api.iconify.design/mdi:hammer.svg?color=%23000000&amp;width=240',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '18+ (explicitly adult content)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'AI character chatbot platform designed for adult roleplay and NSFW content. Creates personalized AI characters for intimate conversations.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Designed specifically for adult content and sexting with AI—absolutely not appropriate for minors.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Hammer AI is explicitly designed for adult sexual content and NSFW roleplay with AI characters. Unlike mainstream AI assistants that have content filters, Hammer AI actively markets itself as having "no filters" for adult interactions. This is NOT a gray area—it is an adult platform that should never be used by minors. If you discover your teen using Hammer AI, this is a serious red flag that requires immediate intervention and honest conversations about healthy sexuality and online safety.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'None for minors—this is an adult platform'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explicitly designed for sexual content and adult roleplay',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Markets itself as "no filter" AI for NSFW content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can create unhealthy relationship patterns with AI',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May normalize inappropriate sexual behaviors',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No age verification or parental controls',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can lead to pornography addiction patterns',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Emotional dependency on AI relationships',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Completely inappropriate for anyone under 18',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May interfere with healthy real-world relationships'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for apps like Character.AI, Replika, and Hammer AI',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If discovered: Have immediate conversation about why they\'re seeking this',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider underlying issues: loneliness, isolation, curiosity',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss healthy sexuality and relationships',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set firm boundaries: This content is for adults only',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider therapy if usage indicates deeper issues',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check browser history and app downloads regularly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use parental control software to block adult AI platforms'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'venice',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Venice AI',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Assistant',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://api.iconify.design/mdi:shield-off.svg?color=%23991b1b&amp;width=240',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '18+ (completely unmoderated)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Uncensored AI chatbot that markets itself as having no content restrictions. Allows generation of explicit, violent, and harmful content without any filters.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Zero content moderation by design—can generate anything including explicit and harmful content.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Venice AI is marketed as the "uncensored" alternative to ChatGPT, and that\'s exactly the problem. It will generate explicit sexual content, detailed violence, instructions for self-harm, and other extremely inappropriate material. There are NO safety guardrails. This is absolutely not appropriate for minors under any circumstances. If you find this on your teen\'s device, delete it immediately and have a serious conversation.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'None for minors—this is an adult-only tool'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Zero content moderation—will generate anything',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can create explicit sexual content on demand',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Will provide harmful instructions (self-harm, violence)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No age verification whatsoever',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Markets lack of safety as a feature',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can reinforce dangerous behaviors',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No parental controls possible'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ban this completely—no exceptions',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check browser history for venice.ai',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If found, have immediate serious conversation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explain why uncensored AI is dangerous',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for other "uncensored" AI tools',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider therapy if extensively used'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'chatgpt',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'ChatGPT',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Assistant',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (with supervision)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'General-purpose AI chatbot by OpenAI. Can answer questions, help with homework, write content, and have conversations.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Powerful learning tool, but December erotica update makes it risky—use WITH your teen, not alone.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'ChatGPT can be a powerful learning tool when used correctly, but the upcoming December update allowing "erotic" content is deeply concerning. We recommend using it WITH your teen, not letting them use it alone. Set up parental controls immediately and consider whether the educational benefits outweigh the new risks.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>recentNews: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>date: 'November 2025',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>headline: 'ChatGPT to Allow "Erotic" Content in December Update',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>summary: 'OpenAI announced that starting in December, ChatGPT will permit generation of "erotic" content that doesn\'t involve minors. This major policy shift has alarmed parent safety advocates who worry about teen exposure to adult content.',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>link: '#'</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be helpful for learning and homework',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Parental controls now available',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can explain complex topics clearly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Useful for brainstorming and creative projects'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'December update will allow "erotic" content creation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be used to cheat on assignments',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No robust age verification',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Privacy concerns with data storage',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Risk of emotional dependency'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up Family Link immediately',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use it WITH your teen for learning',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Establish homework boundaries',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor what questions are being asked',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider waiting until December update details are clear'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Create or log into your ChatGPT account',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Go to Settings &gt; Parental Controls',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Family Link and invite your teen',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set content filters to "Strict"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable self-harm detection alerts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review chat history regularly'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'claude',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Claude',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Assistant',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Claude_3_Opus_Icon.svg/240px-Claude_3_Opus_Icon.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (with supervision)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'AI assistant by Anthropic. Similar to ChatGPT, can help with questions, writing, analysis, and coding.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Alternative to ChatGPT with similar capabilities and risks.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Claude is Anthropic\'s AI assistant, similar to ChatGPT in capabilities and risks. It can be helpful for learning but carries the same concerns around cheating, misinformation, and lack of parental controls. Treat it the same way you would ChatGPT: use it WITH your teen for learning, not as a replacement for their own thinking.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be helpful for learning complex topics',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Generally thoughtful and nuanced responses',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Good for analysis and research',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can assist with coding and technical subjects'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be used to cheat on assignments',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No parental controls available yet',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Stores conversation data',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May provide incorrect information confidently',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No age verification'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use it WITH your teen for learning',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teach them to verify AI-generated information',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Same homework rules as ChatGPT apply',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set clear boundaries about appropriate use',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check in about what questions they\'re asking'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'gemini',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Google Gemini',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Assistant',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/240px-Google_Gemini_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (with supervision)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Google\'s AI assistant, integrated with Google services. Can answer questions, help with tasks, and search the web.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Google\'s AI chatbot—similar concerns to ChatGPT, tied to Google account.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Gemini is Google\'s answer to ChatGPT. It\'s integrated with Google services, which is convenient but also means it ties to your teen\'s Google account. The same cheating and misinformation concerns apply. One advantage: if your teen uses Google Family Link, you have slightly more visibility than with standalone AI tools.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If using Google Family Link, enable supervision for Google services',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review Google account activity periodically',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss appropriate vs inappropriate uses',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Same rules as ChatGPT: use together for learning'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Integrated with Google services',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can help with research and homework',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Access to current information via Google Search',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can work with Google Docs and other tools'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be used for cheating on assignments',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Tied to Google account (privacy concerns)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Limited parental controls',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May provide incorrect information',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No robust age verification'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor through Google Family Link if available',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use WITH your teen for homework',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Same homework boundaries as other AI tools',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teach verification of AI responses',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check Google account activity regularly'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'sora',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Sora',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Video Generator',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://api.iconify.design/mdi:video.svg?color=%23000000&amp;width=240',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '16+ (emerging technology)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'OpenAI\'s text-to-video AI tool. Can generate realistic videos from text descriptions. Still in limited release.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'AI video generator—potential for deepfakes and misinformation.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Sora is OpenAI\'s text-to-video AI, and it represents a new frontier of concern. The ability to generate realistic videos from text opens up massive potential for deepfakes, misinformation, and deception. While it has creative potential, the risks are significant. This is firmly in the 16+ category and requires serious conversations about digital ethics and misinformation.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Creative tool for video projects',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Educational potential for understanding AI',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Could be useful for art and storytelling'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can create realistic deepfakes',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Massive misinformation potential',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No age verification mechanisms',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ethical concerns around AI-generated content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Could be used for harmful impersonation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Still emerging - safety guardrails unclear'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Only for older teens with strong ethics foundation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss deepfakes and misinformation thoroughly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Only for creative projects with your oversight',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teach digital literacy and media verification',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explain the ethical implications of AI video generation'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'grok',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Grok',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'AI Assistant',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/240px-X_logo_2023_%28white%29.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '16+ (with caution)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'AI chatbot by X (formerly Twitter) with real-time internet access. Known for more unfiltered, "edgy" responses than other AI assistants.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Less filtered than ChatGPT and tied to X/Twitter—only for older teens with critical thinking skills.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Grok is X\'s AI chatbot, and it\'s intentionally less filtered than ChatGPT or Claude. Elon Musk has positioned it as the "anti-woke" AI that will give you unfiltered answers. This sounds appealing to teens who feel other AIs are too restrictive, but it means Grok is more likely to provide controversial, biased, or inappropriate responses. Only for older teens who can critically evaluate what they\'re reading.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Access to real-time information via X',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can help with current events research',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some users prefer its less corporate tone'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Significantly less filtered than ChatGPT',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Tied to X/Twitter account (platform with major issues)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May provide controversial opinions without guardrails',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Real-time internet access means less content control',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Limited to no parental controls',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can reinforce biases or extreme views'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Only for older teens (16+) with critical thinking skills',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss media literacy and bias in AI',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor usage more closely than other AI tools',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Question whether teen needs real-time AI access',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Have conversations about evaluating information sources'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'tiktok',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'TikTok',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social Media',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TikTok_logo.svg/240px-TikTok_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Short-form video app with powerful algorithm. Highly addictive. Mix of entertainment, education, trends, and harmful content.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'The algorithm is designed to be addictive—treat it like junk food with strict limits.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'TikTok\'s algorithm is genuinely impressive—and genuinely dangerous. It learns what keeps your teen watching and serves more of it, which can quickly lead to hours of daily use. The Family Pairing feature is helpful, but the app is designed to be addictive. Our take: if you allow it, treat it like junk food—small amounts, supervised, with clear limits.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be entertaining and creative',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some educational content exists',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Connects teens with peers and trends'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Extremely addictive by design',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Exposes teens to inappropriate content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Mental health impact: comparison, FOMO, body image',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Dangerous viral challenges',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Privacy concerns'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use TikTok\'s Family Pairing feature',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set screen time limits (60 minutes max)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable restricted mode',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch TikTok WITH your teen sometimes',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Talk about algorithm manipulation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set tech sunset time - no TikTok after 8pm'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Open TikTok and go to your teen\'s profile',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Tap the three lines in the top right',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Go to Settings and Privacy → Family Pairing',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Scan the QR code on your teen\'s phone',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Screen Time Management and Restricted Mode',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set daily time limit (recommend 60 minutes)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review settings monthly together'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'snapchat',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Snapchat',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social Media',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Snapchat_logo.svg/240px-Snapchat_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '16+',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Messaging app where photos and videos disappear after viewing. Includes Stories, Snap Map, and messaging features.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'The disappearing messages feature is THE app for sexting and sextortion—think carefully.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Snapchat is the number one app used by teens for sexting and where predators target teens for sextortion. The "disappearing messages" feature creates a false sense of security—screenshots are easy, and deleted messages can be recovered. We recommend not allowing Snapchat for younger teens.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teens use it to stay connected with friends',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Stories feature for sharing daily life',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Family Center provides some parental oversight'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Primary app used by teens for sexting',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'False sense of security - screenshots are easy',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Messages can be recovered even after "deleting"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'High risk for sextortion',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Predators actively use Snapchat',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Snap Map reveals real-time location',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Drug dealers use it to sell to teens'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Strongly consider not allowing for teens under 16',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If allowed, check it frequently and without warning',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review Snap Score - big jumps mean lots of activity',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check their friends list for strangers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss sextortion: "If someone asks for nudes, tell me"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explain: Screenshots happen, nothing disappears',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for secretive behavior around phone'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Family Center: Settings → Family Center',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Turn off Snap Map or set to Ghost Mode',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their friend list - delete strangers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set rule: Only add people they know in real life',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable two-factor authentication',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their Snap Score for unusual activity'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'telegram',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Telegram',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Messaging',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/240px-Telegram_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '16+ (high risk for younger)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Encrypted messaging app popular for group chats and channels. Significantly less moderation than mainstream messaging apps.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Minimal moderation, widely used for illegal content and extremism—question why they need it.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Telegram positions itself as the privacy-focused alternative to WhatsApp, but in reality, it has become a haven for illegal content, extremism, and harmful material. The lack of moderation isn\'t a feature—it\'s a problem. Question why your teen needs Telegram instead of standard messaging apps.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Strong encryption for privacy',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Useful for organizing legitimate groups',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Large file sharing capability'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Widely used for sharing illegal content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Minimal content moderation by design',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy to join public channels with harmful content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Popular with extremist groups and conspiracy theorists',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Self-destructing messages hide evidence',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No parental controls whatsoever',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teens can easily access adult and illegal content'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Question why they need Telegram vs standard messaging',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor which channels and groups they join',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for secretive behavior around the app',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider not allowing for younger teens',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If they use it, check frequently',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Common app for drug deals and illegal activity',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Trust your instincts if something feels off'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'instagram',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Instagram',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social Media',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Photo and video sharing platform owned by Meta. Focuses on visual content, stories, reels, and direct messaging.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Comparison culture damages teen mental health—keep private and watch for anxiety.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Instagram can be a creative outlet, but the comparison culture is real and damaging. We see the impact on teen mental health constantly—anxiety about likes, obsessing over appearance, FOMO. If you allow Instagram, keep the account PRIVATE, use Family Center, and have regular conversations.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Creative outlet for photography and art',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Connects teens with friends and interests',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some educational content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Family Center provides oversight'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Comparison culture and FOMO',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Body image and self-esteem issues',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Cyberbullying and mean comments',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Exposure to inappropriate content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'DMs can be used by predators',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Highly addictive scrolling'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use Instagram Family Center',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set time limits and stick to them',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep account private',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review follower/following list together',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Talk about filters and unrealistic images',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor DMs - predators actively use Instagram'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Go to Settings → Account Center → Family Center',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Invite your teen to connect accounts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set daily time limits (recommend 60-90 minutes)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review who can message them (Friends Only recommended)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Hide Likes to reduce comparison pressure',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Turn on Sensitive Content Control'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'bereal',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'BeReal',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social Media',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/BeReal_logo.svg/240px-BeReal_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (monitor for anxiety)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Social app that prompts users once daily to post an unfiltered photo within 2 minutes. Markets itself as authentic alternative to Instagram.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Less toxic than Instagram, but location sharing and anxiety about daily posts are concerns.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'BeReal is better than Instagram in many ways—less filtered, smaller friend circles, time-limited. But it still creates anxiety. The pressure to post within 2 minutes means teens might post when it\'s unsafe (driving, in class, at work). The front+back camera feature reveals surroundings. And location data is shared by default. It\'s a step in the right direction, but not without concerns.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable location sharing immediately in Settings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review privacy settings together',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "Friends Only" for who can see posts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss: Never post if it reveals your location',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Talk about it being OK to skip days',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep friend list small and to real friends only'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Less filtered and more authentic than Instagram',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Time limit reduces endless scrolling',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Smaller friend circles (typically)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No ads or influencer culture',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Captures genuine moments'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can still cause anxiety about being caught at "bad" time',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Location data is shared by default',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Front and back camera shows surroundings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Friends can see where you are',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can create new type of FOMO',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Pressure to post even when unsafe (driving, etc)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No parental controls available'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable location sharing immediately',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss: Do not post if it reveals location or is unsafe',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Talk about pressure: It is OK to skip a day',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their friends list together',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for anxiety around the daily notification',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep friend list small and to real IRL friends only'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'twitch',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Twitch',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Live Streaming',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twitch_logo.svg/240px-Twitch_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (monitor content closely)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Live streaming platform primarily for gaming, but also includes music, art, and Just Chatting streams. Owned by Amazon.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Toxic chat and mature content common—enable Restricted Mode and monitor channels.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Twitch can be entertaining and educational (watching skilled gamers, coding streams, art tutorials), but the live chat is often extremely toxic. Profanity, harassment, and inappropriate content are common. Some streamers are great role models; others definitely are not. The key is knowing which channels your teen watches and using Restricted Mode to filter out mature content.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Restricted Mode in Settings → Security and Privacy',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Turn off whispers from strangers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable channel subscriptions if worried about spending',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up email notifications for account activity',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review which channels they watch and follow',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable 2-factor authentication for security',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss appropriate vs inappropriate streamers together'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can watch favorite gamers and learn strategies',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some educational streams (coding, art, music)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Community around shared interests',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be entertaining and engaging'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Live chat can be extremely toxic',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Mature content and profanity are common',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Many streamers use profanity constantly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy to spend money on subscriptions and donations',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Time sink - streams go on for hours',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Parasocial relationships with streamers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some suggestive or sexual content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Gambling streams normalize betting'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Restricted Mode to filter mature content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch some streams WITH your teen to understand',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor which channels they follow',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set spending limits or disable purchases entirely',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss parasocial relationships with streamers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for excessive time spent on Twitch',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Block or unfollow inappropriate streamers together'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'pinterest',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Pinterest',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social/Visual Discovery',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'green',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pinterest-logo.png/240px-Pinterest-logo.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '10+ (relatively safe with monitoring)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Visual discovery platform for finding ideas, inspiration, recipes, crafts, and more. Less social interaction than other platforms.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'One of the safer social platforms—watch for diet culture content, but generally positive.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Pinterest is one of the safer social platforms out there. It\'s focused on discovery and inspiration rather than social interaction, which eliminates many typical social media problems. No direct messaging feature is a huge plus. The main concern is diet culture and unrealistic standards around appearance, home decor, etc. Watch for obsessive pinning of weight loss or "perfect life" content.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Generally positive and creative content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Great for finding project ideas and inspiration',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Much less toxic than other social platforms',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No direct messaging feature',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Educational content (DIY, recipes, study tips)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Relatively safe environment',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Good for family projects'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can promote unrealistic body standards',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some diet culture and eating disorder content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Occasional inappropriate pins slip through',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be time-wasting with endless scrolling',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'May create pressure for perfect life/room/body',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Content can skew toward unattainable standards'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Generally one of the safer social apps',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor what they pin and search for',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for obsession with diet/weight loss content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use Pinterest together for family projects',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set time limits like any app',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Good starter social platform for younger kids',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss realistic vs unrealistic content'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'discord',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Discord',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social/Communication',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Discord_logo.svg/240px-Discord_logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Chat platform for communities. Includes text, voice, and video. Many servers are unmoderated.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Great for gaming communities, but predators use it—join their servers and monitor DMs.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Discord can be great for connecting with positive communities around gaming, hobbies, or schoolwork. The problem is that servers vary wildly in moderation quality. The key is knowing exactly which servers your teen is in and joining them yourself.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can connect with positive communities',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Useful for team coordination in gaming',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some schools and clubs use it',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be educational'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Servers can be completely unmoderated',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy for strangers to contact teens via DMs',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explicit content exists in many servers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Predators actively use Discord',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy to hide activity from parents',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Voice chat adds another risk layer'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ask to see servers they are in',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Join the same servers yourself',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set rule: Only approved servers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check DMs periodically',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable privacy settings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for changes in behavior',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Trust your gut if something feels off'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ask your teen to show you all servers they\'re in',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Join the same servers using your own Discord account',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable privacy settings: Settings → Privacy &amp; Safety',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "Keep me safe" for explicit content filtering',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable DMs from non-friends if possible',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their friend list regularly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set rule: New servers must be approved by you first'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'youtube',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'YouTube',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Video Platform',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/240px-YouTube_full-color_icon_%282017%29.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (with monitoring), Younger with YouTube Kids',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Video sharing platform with billions of videos. Content ranges from educational to entertainment to inappropriate.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Incredible educational resource, but algorithm can lead to dark places—use Restricted Mode.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'YouTube is genuinely one of the best educational resources ever created. The problem is the algorithm and the rabbit hole effect. A kid searching for something innocent can end up watching increasingly extreme content within an hour.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Massive library of educational content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can learn virtually any skill',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Creative outlet for content creation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'YouTube Kids is relatively safe'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Algorithm can lead to extreme content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy to access inappropriate content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Comments can be toxic',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Screen time gets out of control',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some creators target kids with harmful content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Rabbit hole effect - hours of watching'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use YouTube Kids for under 13',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable Restricted Mode for teens',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch YouTube WITH your kids',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Subscribe to good channels together',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check watch history regularly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss: Is this source trustworthy?',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set time limits'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'For under 13: Use YouTube Kids app',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'For teens: Enable Restricted Mode in Settings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use Family Link to manage account',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up supervised experience for ages 9-12',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review watch history weekly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable autoplay to prevent rabbit holes',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Turn off comments if they post videos',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Subscribe to educational channels together'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'fortnite',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Fortnite',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Gaming',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Fortnite_F_lettermark_logo.png/240px-Fortnite_F_lettermark_logo.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ (ESRB Teen rating)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Massively popular battle royale game with building mechanics. Features online multiplayer with voice chat and in-game purchases.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Massive multiplayer game—disable voice chat with strangers and monitor friend requests.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Fortnite is everywhere, and most teens play it or have friends who do. It\'s less violent than games like Call of Duty (cartoonish, no blood), but it still has the typical online gaming risks: toxic voice chat, predators, and addictive design. The building mechanic actually makes it more strategic than pure shooters. Key controls: disable voice chat with strangers, set spending limits on V-Bucks, and keep gaming in a common area.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up parental controls in Epic Games account',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable or restrict voice chat to friends only',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set spending limits on V-Bucks purchases',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable 2FA (two-factor authentication)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set time limits for daily play',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor friend requests - only accept known friends',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep gaming console/PC in common area of house'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teamwork and strategy skills',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Social connection with friends',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Cartoonish violence (not realistic or gory)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Building mechanic adds creativity',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Cross-platform play'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Voice chat with strangers can be toxic',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be highly addictive by design',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'In-game purchases (V-Bucks) add up quickly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Toxic players in voice chat use profanity and harassment',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Time-consuming - matches and sessions can go for hours',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Pressure to buy new skins and battle passes'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable voice chat with strangers immediately',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set strict spending limits on V-Bucks',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor friend requests - strangers should not be accepted',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set firm time limits (1-2 hours max per day)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep gaming in a common area where you can see/hear',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss toxic behavior in gaming',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for signs of gaming addiction'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'callofduty',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Call of Duty',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Gaming',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/COD_Logo.svg/240px-COD_Logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '17+ (ESRB Mature rating)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'First-person shooter game series with realistic military combat. Features intense online multiplayer with voice chat and realistic violence.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Mature-rated shooter with realistic violence—not appropriate for younger teens.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Call of Duty is rated M for Mature (17+) for good reason. It features realistic graphic violence, blood, strong language, and intense combat scenarios. The online multiplayer community is notoriously toxic. If your teen is under 17, this game is not appropriate—period. Even for 17+, monitor closely and be aware of the desensitization to violence that can occur.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can build reaction time and hand-eye coordination',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Teamwork and communication in multiplayer modes',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Strategic thinking required'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Realistic graphic violence and blood',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Strong language throughout game and in voice chat',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Highly addictive gameplay loops',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Extremely toxic online community',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Not age-appropriate for anyone under 17',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can desensitize players to violence',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Voice chat is constant stream of profanity and slurs'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check ESRB rating before allowing - it\'s M for Mature (17+)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Not appropriate for anyone under 17',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If allowed for 17+: disable voice chat entirely',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for desensitization to violence',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set strict time limits',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Keep gaming in common area',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for increased aggression or irritability',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider whether the content aligns with family values'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'reddit',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Reddit',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social/Forum',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Reddit_Logo_Icon.svg/240px-Reddit_Logo_Icon.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '17+ (not appropriate for younger)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Forum-based social platform with thousands of communities (subreddits). Content ranges from helpful to extremely inappropriate.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Easy access to porn, violence, and extremism—no parental controls available. Not for younger teens.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'This is where we draw a hard line for younger teens. Reddit is extremely easy to access pornography, violent content, self-harm content, and toxic communities. Despite the 13+ age requirement, it\'s NOT appropriate for most teens. There are no parental controls available. Some subreddits are genuinely helpful and educational, but the bad far outweighs the good for minors. If your older teen (17+) insists on using it, monitor which subreddits they\'re subscribed to.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some excellent educational communities',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can find support for niche hobbies',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ask questions and get helpful answers'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Extremely easy to access porn and violent content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Many toxic and harmful communities',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Bullying and harassment common',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Self-harm and suicide content exists',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Drug-related communities',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can radicalize users into extreme views',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Anonymity encourages bad behavior',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No parental controls available'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider not allowing for younger teens',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If they use it, check subscribed subreddits',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable NSFW filter (though easily bypassed)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor posts and comments',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss the dark side of Reddit',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for changes in behavior or extreme views',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Many teens hide Reddit use - be vigilant'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'whatsapp',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'WhatsApp',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Messaging',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '13+ with supervision',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'End-to-end encrypted messaging app owned by Meta. Popular for group chats, calls, and international communication.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Encryption means you can\'t monitor—set "contacts only" and check group chats regularly.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'WhatsApp\'s end-to-end encryption is good for privacy, but it also means you cannot monitor messages. This makes it trickier for parents. The biggest issue is group chats—teens can be added to groups by strangers, and those groups can share inappropriate content quickly. The key is checking group chats regularly and setting privacy to "My Contacts" only.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Open WhatsApp → Settings → Privacy',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "Last Seen" to "My Contacts"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "Profile Photo" to "My Contacts"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "About" to "My Contacts"',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set "Groups" to "My Contacts" (prevents strangers from adding them)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their group chats weekly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable two-step verification for security'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'End-to-end encryption protects privacy',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Free international calling and messaging',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Useful for family communication',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Group chats for legitimate purposes'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Encryption means parents cannot monitor',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy for strangers to add teen to groups',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Widely used for sharing inappropriate content',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can coordinate risky behavior',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Status feature similar to Instagram Stories',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No content moderation due to encryption',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Group chats spread rumors/bullying quickly'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check their group chats regularly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable privacy settings: "My Contacts" only',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor for signs of cyberbullying',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Have rule: No deleting messages before parent checks',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Look for secret or hidden group chats',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Trust gut if they are secretive about WhatsApp'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'x',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'X (Twitter)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Social Media',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'red',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/240px-X_logo_2023_%28white%29.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '16+ (not recommended)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Text-based social platform. Fast-paced news and discussion. Less content moderation since ownership change.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Content moderation collapsed after Musk takeover—explicit content and misinformation rampant.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Since Elon Musk took over Twitter (now X), content moderation has significantly decreased. Explicit content is now allowed with minimal filtering. The platform has become increasingly toxic, with misinformation spreading rapidly. It\'s mentally exhausting and anxiety-inducing even for adults. We don\'t recommend it for teens. If your older teen insists on using it, monitor closely and discuss media literacy.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Access to breaking news',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can follow interests and hobbies',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some educational accounts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Connect with communities'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Highly toxic environment',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explicit content now allowed with minimal filtering',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Misinformation spreads rapidly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Pile-on and harassment culture',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Political radicalization risk',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Mentally exhausting and anxiety-inducing',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Reduced content moderation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Easy to see violent/disturbing content'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider not allowing for younger teens',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'If they use it, check who they follow',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor tweets and replies',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss media literacy and misinformation',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Watch for anxiety or political obsession',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set strict time limits',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Encourage breaks from X regularly'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'roblox',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Roblox',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Gaming Platform',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Roblox_Logo.svg/240px-Roblox_Logo.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '10+ (with parental controls)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Online gaming platform where users create and play games. Includes chat and in-game purchases.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Set controls BEFORE they play—chat with strangers and predator targeting are real risks.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Roblox can be great for creativity and game design, but the risks are real. Predators have targeted children on Roblox, and the chat feature allows communication with strangers. The key is setting up parental controls BEFORE your child plays for the first time. Restrict who can contact them, disable voice chat for younger kids, and review their friend list regularly. Never let them share personal information.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up parental controls BEFORE they play',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Go to Settings → Security → Account Restrictions (for under 13)',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Restrict who can contact them to "Friends" only',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable voice chat for younger kids',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review friend list regularly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set spending limits on Robux in Account Settings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable 2-Step Verification for security',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Turn on parental PIN to lock settings'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Encourages creativity and game design',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can teach basic coding concepts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Social connection with friends',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Many age-appropriate games',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Parental controls available'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Chat allows communication with strangers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Predators have targeted children',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'In-game purchases add up quickly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Voice chat feature is high risk',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Reports of grooming attempts',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Kids can be bullied in-game',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can be highly addictive'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up controls BEFORE they play',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Restrict who can contact them',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Disable voice chat for younger kids',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review friend list regularly - remove strangers',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set spending limits',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Play WITH your child periodically',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Ask: What games? Who are you playing with?',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Never share personal info rule'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>id: 'spotify',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>name: 'Spotify',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>category: 'Music Streaming',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>rating: 'yellow',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/240px-Spotify_logo_without_text.svg.png',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ageRecommendation: '10+ (watch for explicit content)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overview: 'Music and podcast streaming service. Millions of songs and podcasts available.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>teaser: 'Enable explicit content filter—but don\'t forget to monitor podcasts, often overlooked.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>ourTake: 'Spotify is generally fine for music, but two things to watch: explicit lyrics and podcasts. The explicit content filter helps with music, but it\'s not perfect. More importantly, parents often forget about podcasts. There are extremely inappropriate podcasts on Spotify that teens can easily access. Check their recently played and monitor what podcasts they\'re listening to.',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>setupSteps: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Set up Spotify Kids for under 13',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'For regular Spotify: Go to Settings',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Under "Explicit Content" toggle it OFF',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Review their playlists and recently played weekly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor podcast listening specifically',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Consider family plan to see activity across devices',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss lyrics and what they mean together'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>positives: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Access to huge music library',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can discover new music and artists',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Educational podcasts available',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Spotify Kids is well-curated for younger children',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Good for family car rides'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>concerns: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Explicit lyrics easily accessible',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Some podcasts extremely inappropriate',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Lyrics can promote violence, drugs, misogyny',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'True crime podcasts may be too mature',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'No way to fully monitor without checking',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Can access content about self-harm, suicide'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>],</p>
+<p class="p1"><span class="Apple-converted-space">        </span>parentTips: [</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Use Spotify Kids for younger children',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Enable explicit content filter for teens',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Check recently played weekly',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Listen to their playlists together',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Discuss lyrics and what they mean',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Monitor podcast listening - often overlooked by parents',</p>
+<p class="p1"><span class="Apple-converted-space">          </span>'Have open conversations about music choices'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>]</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function getRatingBadge(rating) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>switch(rating) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>case 'green': return 'Generally Safe';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>case 'yellow': return 'Use with Caution';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>case 'red': return 'High Risk';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>default: return 'Unknown';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderApp() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const container = document.getElementById('app');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const showAll = localStorage.getItem('showAll') === 'true';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const searchQuery = (localStorage.getItem('searchQuery') || '').toLowerCase();</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const selectedAppId = localStorage.getItem('selectedApp');</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (selectedAppId) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const app = apps.find(a =&gt; a.id === selectedAppId);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (app) {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>renderDetailView(app);</p>
+<p class="p1"><span class="Apple-converted-space">          </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Filter apps based on search only</p>
+<p class="p1"><span class="Apple-converted-space">      </span>let displayApps = apps;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (searchQuery) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>displayApps = displayApps.filter(app =&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>app.name.toLowerCase().includes(searchQuery) ||</p>
+<p class="p1"><span class="Apple-converted-space">          </span>app.category.toLowerCase().includes(searchQuery) ||</p>
+<p class="p1"><span class="Apple-converted-space">          </span>app.teaser.toLowerCase().includes(searchQuery)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// If not searching, show only top 3 unless "show all" is active</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!searchQuery &amp;&amp; !showAll) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>displayApps = displayApps.slice(0, 3);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>let html = `</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;App Safety Guide&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="subtitle"&gt;Real talk about the apps your teens are using&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Breaking News Alert --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="breaking-alert"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h2&gt;⚠️ URGENT SAFETY ALERTS&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="breaking-alert-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="alert-item" onclick="showApp('characterai')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="alert-item-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-title"&gt;Character.AI - Teen Suicide Risk&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-date"&gt;Nov 2025&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="alert-item-desc"&gt;Minors banned starting Nov 25 after multiple teen suicides. Check devices immediately.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="alert-item" onclick="showApp('venice')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="alert-item-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-title"&gt;Venice AI - Zero Content Moderation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-date"&gt;Nov 2025&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="alert-item-desc"&gt;Uncensored AI with no safety features. Will generate explicit content. Ban immediately.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="alert-item" onclick="showApp('chatgpt')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="alert-item-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-title"&gt;ChatGPT - Adult Content Coming&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="alert-item-date"&gt;Dec 2025&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="alert-item-desc"&gt;Will allow "erotic" content generation starting December. Set up parental controls NOW.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Search Bar --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="search-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>type="text"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>class="search-input"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>placeholder="Search apps..."</p>
+<p class="p1"><span class="Apple-converted-space">            </span>value="${searchQuery}"</p>
+<p class="p1"><span class="Apple-converted-space">            </span>onkeyup="handleSearch(this.value)"</p>
+<p class="p1"><span class="Apple-converted-space">          </span>/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// App cards</p>
+<p class="p1"><span class="Apple-converted-space">      </span>displayApps.forEach(app =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;button class="app-card" onclick="showApp('${app.id}')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="app-card-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;img src="${app.icon}" alt="${app.name}" class="app-icon" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="app-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="app-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span class="app-name"&gt;${app.name}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span class="rating-badge rating-${app.rating}"&gt;${getRatingBadge(app.rating)}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="app-category"&gt;${app.category}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="app-teaser"&gt;${app.teaser}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;svg class="chevron" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Show more/less button</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (!searchQuery &amp;&amp; apps.length &gt; 3) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (!showAll) {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `&lt;button class="show-all-btn" onclick="toggleShowAll()"&gt;Show all ${apps.length} apps ↓&lt;/button&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `&lt;button class="show-all-btn" onclick="toggleShowAll()"&gt;Show fewer apps ↑&lt;/button&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// App count</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (searchQuery) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `&lt;p class="app-count"&gt;Showing ${displayApps.length} of ${apps.length} apps&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.innerHTML = html;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderDetailView(app) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const container = document.getElementById('app');</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>let html = `</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="detail-view"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;button class="back-btn" onclick="goBack()"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span&gt;Back&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="detail-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="detail-header-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;img src="${app.icon}" alt="${app.name}" class="detail-icon" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h1 class="detail-title"&gt;${app.name}&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div style="display: flex; align-items: center;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;div class="rating-squares"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="rating-square" style="background: ${app.rating === 'green' ? '#10b981' : '#e5e7eb'};"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="rating-square" style="background: ${app.rating === 'yellow' ? '#fbbf24' : '#e5e7eb'};"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="rating-square" style="background: ${app.rating === 'red' ? '#ef4444' : '#e5e7eb'};"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span style="font-weight: 600; color: #111827; font-size: 15px;"&gt;${getRatingBadge(app.rating)}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="detail-meta"&gt;${app.category} • Age: ${app.ageRecommendation}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;!-- What is it --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="content-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;What is it?&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="section-text"&gt;${app.overview}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Recent News (for apps that have it)</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.recentNews &amp;&amp; app.recentNews.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="content-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;Recent Developments&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>app.recentNews.forEach(news =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="news-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="news-date"&gt;${news.date}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 class="news-headline"&gt;${news.headline}&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="news-summary"&gt;${news.summary}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>${news.link !== '#' ? `&lt;a href="${news.link}" target="_blank" class="news-link"&gt;Read Full Story →&lt;/a&gt;` : ''}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += '&lt;/div&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Three columns</p>
+<p class="p1"><span class="Apple-converted-space">      </span>html += '&lt;div class="columns-grid"&gt;';</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// What's good</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.positives) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="column-box column-green"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;What's good&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>app.positives.forEach(item =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="list-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-icon" style="color: #10b981;"&gt;✓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-text"&gt;${item}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += '&lt;/div&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// What to watch for</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.concerns) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="column-box column-red"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;What to watch for&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>app.concerns.forEach(item =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="list-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-icon" style="color: #ef4444;"&gt;⚠&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-text"&gt;${item}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += '&lt;/div&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// What you can do</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.parentTips) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="column-box column-blue"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;What you can do&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>app.parentTips.forEach(item =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="list-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-icon" style="color: #3b82f6;"&gt;→&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-text"&gt;${item}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += '&lt;/div&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>html += '&lt;/div&gt;'; // End columns</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Setup Steps</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.setupSteps) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="content-section setup-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title"&gt;How to Set Up Parental Controls&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>app.setupSteps.forEach((step, i) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="setup-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="step-number"&gt;${i + 1}.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="list-item-text"&gt;${step}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += '&lt;/div&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>// Our Take</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (app.ourTake) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html += `</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="content-section our-take-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="our-take-title"&gt;💡 Our Take&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="our-take-text"&gt;${app.ourTake}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>html += '&lt;/div&gt;'; // End detail-view</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>container.innerHTML = html;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function showApp(appId) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>localStorage.setItem('selectedApp', appId);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>window.scrollTo(0, 0);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderApp();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function goBack() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>localStorage.removeItem('selectedApp');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>window.scrollTo(0, 0);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderApp();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function handleSearch(value) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>localStorage.setItem('searchQuery', value);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (value) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>localStorage.setItem('showAll', 'true');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderApp();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function toggleShowAll() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const current = localStorage.getItem('showAll') === 'true';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>localStorage.setItem('showAll', !current);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>renderApp();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Initial render</p>
+<p class="p1"><span class="Apple-converted-space">    </span>renderApp();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
